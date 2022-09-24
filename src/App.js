@@ -5,6 +5,8 @@ import Portfolio from "./components/Portfolio"
 import About from "./components/About"
 import OurTeam from "./components/OurTeam"
 import Brand from "./components/Brand"
+import ContactUs from "./components/ContactUs"
+import Footer from "./components/Footer"
 
 function App() {
   return <div className="App">
@@ -15,6 +17,8 @@ function App() {
     <About />
     <OurTeam />
     <Brand />
+    <ContactUs />
+    <Footer />
   </div>
 }
 
